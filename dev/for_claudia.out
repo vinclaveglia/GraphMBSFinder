@@ -1,0 +1,249 @@
+ProteinSegmenter2(
+  (conv1): SAGEConv(22, 50, aggr=mean)
+  (conv2): SAGEConv(50, 50, aggr=mean)
+  (conv3): SAGEConv(50, 50, aggr=mean)
+  (conv4): SAGEConv(50, 3, aggr=mean)
+)
+//////////
+Problem with:  5ah1.pdb
+Problem aminoacid feature for 5b16.pdb
+/////// 4z4k.pdb ///////
+Target
+['CYS_238_A', 'CYS_241_A', 'HIS_257_A', 'HIS_261_A', 'CYS_265_A', 'CYS_268_A', 'HIS_284_A', 'HIS_288_A']
+Prediction
+['CYS_238_A|4.0', 'CYS_241_A|3.0', 'HIS_257_A|3.0', 'HIS_261_A|3.0', 'CYS_265_A|3.0', 'CYS_268_A|3.0', 'HIS_284_A|3.0', 'HIS_288_A|3.0']
+/////// 4z60.pdb ///////
+Target
+['ASP_92_A', 'HIS_93_A', 'HIS_269_A']
+Prediction
+['CYS_19_A|3.0', 'CYS_21_A|3.0', 'CYS_24_A|3.0']
+/////// 4z8i.pdb ///////
+Target
+['HIS_93_A', 'HIS_202_A', 'CYS_210_A']
+Prediction
+['CYS_11_A|5.0', 'CYS_25_A|7.0', 'HIS_28_A|4.0', 'HIS_32_A|7.0', 'CYS_33_A|9.0', 'CYS_34_A|9.0', 'CYS_40_A|8.0', 'CYS_47_A|7.0', 'CYS_49_A|5.0', 'CYS_52_A|6.0', 'HIS_93_A|6.0', 'HIS_94_A|5.0', 'HIS_150_A|4.0', 'CYS_162_A|6.0', 'HIS_202_A|6.0', 'CYS_210_A|5.0']
+/////// 4zdt.pdb ///////
+Target
+['CYS_180_A', 'CYS_183_A', 'CYS_196_A', 'CYS_201_A', 'HIS_206_A', 'CYS_209_A', 'CYS_228_A', 'CYS_231_A']
+Prediction
+['CYS_180_A|5.0', 'CYS_183_A|5.0', 'CYS_186_A|4.0', 'CYS_196_A|4.0', 'CYS_201_A|4.0', 'HIS_206_A|5.0', 'CYS_209_A|4.0', 'CYS_228_A|4.0', 'CYS_231_A|4.0', 'CYS_180_C|5.0', 'CYS_183_C|5.0', 'CYS_186_C|4.0', 'CYS_196_C|4.0', 'CYS_201_C|4.0', 'HIS_206_C|5.0', 'CYS_209_C|4.0', 'CYS_228_C|4.0', 'CYS_231_C|4.0']
+/////// 4zkg.pdb ///////
+Target
+['CYS_65_A', 'CYS_110_A', 'CYS_122_A', 'HIS_127_A']
+Prediction
+['CYS_65_A|4.0', 'HIS_86_A|4.0', 'CYS_110_A|4.0', 'CYS_122_A|5.0', 'HIS_127_A|5.0']
+/////// 4zr0.pdb ///////
+Target
+['HIS_244_A', 'HIS_249_A', 'HIS_268_A', 'HIS_272_A', 'HIS_330_A', 'HIS_348_A']
+Prediction
+['HIS_173_A|6.0', 'HIS_249_A|3.0', 'HIS_264_A|4.0', 'HIS_268_A|7.0', 'CYS_270_A|6.0', 'HIS_271_A|6.0', 'HIS_272_A|6.0', 'CYS_321_A|3.0', 'CYS_325_A|4.0', 'HIS_326_A|6.0', 'HIS_330_A|5.0', 'HIS_331_A|3.0', 'HIS_345_A|4.0', 'HIS_349_A|5.0']
+/////// 4zxn.pdb ///////
+Target
+['GLU_48_A', 'HIS_52_A', 'ASP_56_A', 'HIS_336_A']
+Prediction
+['ASP_334_A|4.0', 'HIS_336_A|4.0', 'HIS_339_A|4.0', 'HIS_340_A|4.0']
+/////// 4zxs.pdb ///////
+Target
+['CYS_106_B', 'CYS_122_B', 'CYS_125_B', 'HIS_225_B']
+Prediction
+['CYS_106_B|5.0', 'CYS_121_B|3.0', 'CYS_122_B|5.0', 'CYS_125_B|6.0', 'HIS_225_B|4.0', 'HIS_227_B|5.0']
+/////// 5a0p.pdb ///////
+Target
+['HIS_142_A', 'HIS_146_A', 'GLU_185_A']
+Prediction
+['HIS_142_A|5.0', 'GLU_143_A|5.0', 'HIS_146_A|8.0', 'HIS_150_A|4.0', 'ASP_155_A|4.0', 'GLU_184_A|6.0', 'GLU_185_A|6.0', 'GLU_189_A|6.0']
+/////// 5a22.pdb ///////
+Target
+['CYS_1081_A', 'GLU_1108_A', 'CYS_1120_A', 'CYS_1123_A', 'HIS_1294_A', 'HIS_1296_A', 'CYS_1299_A', 'CYS_1302_A']
+Prediction
+['HIS_313_A|4.0', 'HIS_317_A|4.0', 'ASP_764_A|4.0', 'GLU_766_A|5.0', 'CYS_1081_A|4.0', 'HIS_1085_A|3.0', 'HIS_1114_A|5.0', 'CYS_1120_A|5.0', 'CYS_1123_A|5.0', 'HIS_1134_A|5.0', 'CYS_1135_A|5.0', 'ASP_1137_A|5.0', 'HIS_1140_A|3.0', 'CYS_1291_A|4.0', 'HIS_1294_A|6.0', 'HIS_1296_A|6.0', 'CYS_1299_A|4.0', 'CYS_1302_A|4.0']
+/////// 5a3a.pdb ///////
+Target
+['CYS_145_A', 'CYS_149_A', 'CYS_180_A', 'CYS_183_A']
+Prediction
+['CYS_145_A|6.0', 'HIS_148_A|6.0', 'CYS_149_A|6.0', 'HIS_150_A|6.0', 'CYS_180_A|6.0', 'CYS_183_A|6.0', 'HIS_259_A|4.0', 'HIS_261_A|3.0', 'GLU_274_A|3.0']
+/////// 5a3y.pdb ///////
+Target
+['HIS_142_A', 'HIS_146_A', 'GLU_166_A']
+Prediction
+['ASP_138_A|4.0', 'HIS_142_A|6.0', 'GLU_143_A|6.0', 'HIS_146_A|5.0', 'GLU_166_A|6.0', 'ASP_170_A|7.0', 'HIS_231_A|4.0']
+/////// 5a89.pdb ///////
+Target
+['HIS_186_A', 'ASP_321_A', 'HIS_325_A']
+Prediction
+['HIS_186_A|3.0', 'GLU_286_A|3.0', 'ASP_289_A|4.0']
+/////// 5aaq.pdb ///////
+Target
+['CYS_422_A', 'CYS_425_A', 'HIS_440_A', 'HIS_444_A']
+Prediction
+['CYS_400_A|3.0', 'HIS_408_A|3.0', 'CYS_422_A|4.0', 'CYS_425_A|4.0', 'HIS_440_A|5.0', 'CYS_443_A|3.0', 'HIS_444_A|5.0']
+/////// 5af0.pdb ///////
+Target
+['GLU_137_A', 'CYS_290_A', 'HIS_293_A', 'CYS_302_A']
+Prediction
+['HIS_154_A|3.0', 'GLU_155_A|3.0', 'HIS_262_A|3.0', 'HIS_263_A|3.0', 'ASP_264_A|3.0', 'CYS_290_A|5.0', 'HIS_293_A|3.0', 'CYS_302_A|3.0']
+/////// 5aws.pdb ///////
+Target
+['GLU_622_A', 'HIS_623_A', 'CYS_633_A', 'GLU_622_B', 'HIS_623_B', 'CYS_633_B']
+Prediction
+[]
+/////// 5b0h.pdb ///////
+Target
+['HIS_35_A', 'ASP_39_A', 'HIS_120_A']
+Prediction
+['CYS_18_A|3.0', 'HIS_21_A|3.0', 'CYS_23_A|4.0']
+/////// 5b2o.pdb ///////
+Target
+['CYS_460_A', 'CYS_657_A', 'CYS_814_A', 'CYS_817_A']
+Prediction
+['GLU_267_A|3.0', 'HIS_292_A|3.0', 'HIS_293_A|3.0', 'CYS_393_A|3.0', 'HIS_394_A|3.0', 'GLU_399_A|3.0', 'CYS_460_A|5.0', 'CYS_657_A|5.0', 'HIS_659_A|5.0', 'CYS_747_A|3.0', 'GLU_750_A|4.0', 'HIS_761_A|4.0', 'GLU_766_A|3.0', 'CYS_814_A|5.0', 'CYS_817_A|5.0']
+/////// 5b3h.pdb ///////
+Target
+['CYS_161_C', 'CYS_164_C', 'HIS_177_C', 'CYS_181_C', 'CYS_188_C', 'CYS_190_C', 'HIS_203_C', 'CYS_207_C']
+Prediction
+['HIS_333_B|3.0', 'GLU_339_B|3.0', 'ASP_341_B|3.0', 'CYS_161_C|4.0', 'CYS_164_C|3.0', 'HIS_177_C|3.0', 'CYS_181_C|4.0', 'CYS_188_C|4.0', 'CYS_190_C|4.0', 'HIS_203_C|4.0', 'CYS_207_C|4.0']
+/////// 5b4e.pdb ///////
+Target
+['CYS_3_A', 'CYS_6_A', 'CYS_22_A', 'HIS_25_A', 'CYS_274_A', 'CYS_277_A', 'CYS_286_A', 'CYS_289_A']
+Prediction
+['CYS_3_A|4.0', 'CYS_6_A|4.0', 'CYS_22_A|4.0', 'HIS_25_A|4.0', 'CYS_274_A|4.0', 'CYS_277_A|4.0', 'CYS_286_A|4.0', 'CYS_289_A|4.0']
+/////// 5b5x.pdb ///////
+Target
+['CYS_119_A', 'HIS_179_A', 'CYS_203_A']
+Prediction
+['CYS_119_A|4.0', 'HIS_179_A|5.0', 'CYS_203_A|4.0', 'GLU_295_A|6.0', 'HIS_297_A|4.0', 'GLU_312_A|3.0']
+/////// 5b5y.pdb ///////
+Target
+['CYS_46_A', 'HIS_102_A', 'CYS_126_A']
+Prediction
+['CYS_126_A|3.0', 'CYS_126_B|3.0']
+/////// 5b73.pdb ///////
+Target
+['CYS_111_A', 'CYS_114_A', 'CYS_123_A', 'CYS_126_A', 'HIS_131_A', 'CYS_134_A', 'CYS_147_A', 'CYS_150_A', 'CYS_275_A', 'CYS_278_A', 'CYS_294_A', 'HIS_298_A']
+Prediction
+['CYS_111_A|7.0', 'CYS_114_A|6.0', 'HIS_115_A|5.0', 'CYS_122_A|6.0', 'CYS_123_A|5.0', 'CYS_126_A|5.0', 'HIS_131_A|6.0', 'CYS_134_A|4.0', 'CYS_147_A|5.0', 'CYS_150_A|4.0', 'HIS_242_A|4.0', 'CYS_275_A|4.0', 'CYS_278_A|4.0', 'CYS_294_A|4.0', 'HIS_298_A|3.0']
+/////// 5bwl.pdb ///////
+Target
+['CYS_166_A', 'CYS_169_A', 'CYS_207_A', 'CYS_212_A']
+Prediction
+['HIS_52_A|3.0', 'HIS_158_A|3.0', 'CYS_166_A|4.0', 'CYS_169_A|4.0', 'CYS_207_A|4.0', 'CYS_212_A|4.0', 'HIS_241_A|3.0', 'CYS_242_A|3.0']
+/////// 5c4v.pdb ///////
+Target
+['CYS_291_B', 'CYS_294_B', 'HIS_306_B', 'HIS_308_B']
+Prediction
+['HIS_266_B|6.0', 'CYS_268_B|5.0', 'CYS_272_B|6.0', 'CYS_291_B|6.0', 'CYS_294_B|4.0', 'CYS_295_B|3.0', 'HIS_306_B|6.0', 'HIS_308_B|5.0', 'HIS_317_B|3.0', 'HIS_326_B|3.0', 'CYS_327_B|4.0', 'HIS_330_B|4.0']
+/////// 5c6q.pdb ///////
+Target
+['HIS_183_A', 'CYS_186_A', 'HIS_202_A', 'CYS_204_A']
+Prediction
+['HIS_183_A|4.0', 'CYS_186_A|4.0', 'HIS_202_A|4.0', 'CYS_204_A|4.0']
+/////// 5c8t.pdb ///////
+Target
+['CYS_207_B', 'CYS_210_B', 'CYS_226_B', 'HIS_229_B', 'HIS_257_B', 'CYS_261_B', 'HIS_264_B', 'CYS_279_B', 'CYS_452_B', 'CYS_477_B', 'CYS_484_B', 'HIS_487_B']
+Prediction
+['CYS_207_B|6.0', 'CYS_208_B|5.0', 'CYS_210_B|5.0', 'CYS_216_B|4.0', 'CYS_226_B|6.0', 'HIS_229_B|6.0', 'HIS_257_B|6.0', 'CYS_261_B|6.0', 'HIS_264_B|6.0', 'CYS_272_B|3.0', 'CYS_279_B|7.0', 'HIS_283_B|7.0', 'CYS_285_B|4.0', 'CYS_414_B|7.0', 'HIS_427_B|4.0', 'CYS_452_B|5.0', 'CYS_477_B|4.0', 'CYS_484_B|5.0', 'HIS_486_B|4.0', 'HIS_487_B|5.0']
+/////// 5ceh.pdb ///////
+Target
+['CYS_676_A', 'CYS_679_A', 'CYS_690_A', 'CYS_692_A', 'CYS_699_A', 'HIS_702_A', 'CYS_707_A', 'CYS_709_A']
+Prediction
+['HIS_487_A|5.0', 'CYS_598_A|5.0', 'HIS_601_A|3.0', 'HIS_608_A|4.0', 'CYS_609_A|5.0', 'HIS_613_A|5.0', 'CYS_676_A|6.0', 'CYS_679_A|5.0', 'CYS_683_A|4.0', 'CYS_690_A|4.0', 'CYS_692_A|4.0', 'CYS_699_A|5.0', 'HIS_702_A|4.0', 'CYS_707_A|4.0', 'CYS_709_A|4.0']
+/////// 5cgz.pdb ///////
+Target
+['HIS_14_A', 'ASP_17_A', 'GLU_48_A', 'HIS_127_A']
+Prediction
+[]
+/////// 5chj.pdb ///////
+Target
+['GLU_124_A', 'ASP_126_A', 'HIS_147_B']
+Prediction
+[]
+/////// 5cht.pdb ///////
+Target
+['CYS_175_A', 'CYS_178_A', 'CYS_226_A', 'CYS_229_A']
+Prediction
+['HIS_55_A|3.0', 'CYS_61_A|7.0', 'CYS_62_A|6.0', 'HIS_135_A|4.0', 'CYS_175_A|5.0', 'CYS_178_A|4.0', 'CYS_225_A|4.0', 'CYS_226_A|5.0', 'CYS_229_A|5.0', 'HIS_306_A|5.0', 'HIS_314_A|6.0', 'CYS_316_A|7.0', 'CYS_329_A|4.0', 'HIS_334_A|5.0', 'CYS_336_A|4.0']
+/////// 5cuo.pdb ///////
+Target
+['HIS_48_A', 'HIS_50_A', 'HIS_157_A', 'HIS_159_A', 'HIS_204_A']
+Prediction
+['HIS_159_A|3.0', 'HIS_161_A|3.0', 'GLU_202_A|3.0']
+/////// 5cvi.pdb ///////
+Target
+['ASP_7_A', 'GLU_80_A', 'GLU_99_A', 'GLU_102_A', 'HIS_103_A', 'CYS_123_A', 'HIS_125_A']
+Prediction
+['CYS_123_A|3.0']
+/////// 5cyz.pdb ///////
+Target
+['CYS_114_C', 'HIS_116_C', 'CYS_119_C', 'CYS_152_C']
+Prediction
+['CYS_114_C|5.0', 'HIS_116_C|6.0', 'CYS_117_C|4.0', 'CYS_119_C|5.0', 'CYS_152_C|4.0']
+/////// 5d0i.pdb ///////
+Target
+['CYS_294_A', 'CYS_297_A', 'CYS_312_A', 'HIS_314_A', 'HIS_317_A', 'CYS_320_A', 'CYS_331_A', 'CYS_334_A']
+Prediction
+['CYS_294_A|5.0', 'CYS_297_A|4.0', 'CYS_312_A|4.0', 'HIS_314_A|5.0', 'HIS_317_A|4.0', 'CYS_320_A|4.0', 'CYS_331_A|4.0', 'CYS_334_A|4.0', 'CYS_294_B|5.0', 'CYS_297_B|4.0', 'CYS_312_B|4.0', 'HIS_314_B|5.0', 'HIS_317_B|4.0', 'CYS_320_B|4.0', 'CYS_331_B|4.0', 'CYS_334_B|4.0']
+/////// 5d1k.pdb ///////
+Target
+['CYS_135_B', 'CYS_138_B', 'CYS_153_B', 'HIS_155_B', 'HIS_158_B', 'CYS_161_B', 'CYS_198_B', 'CYS_201_B']
+Prediction
+['CYS_135_B|7.0', 'CYS_138_B|5.0', 'CYS_153_B|4.0', 'HIS_155_B|5.0', 'HIS_158_B|6.0', 'CYS_159_B|5.0', 'HIS_160_B|5.0', 'CYS_161_B|6.0', 'CYS_198_B|4.0', 'CYS_201_B|4.0']
+/////// 5d5n.pdb ///////
+Target
+['CYS_106_B', 'CYS_122_B', 'CYS_125_B', 'HIS_211_B']
+Prediction
+['HIS_101_B|3.0', 'HIS_104_B|5.0', 'CYS_106_B|8.0', 'CYS_122_B|4.0', 'CYS_125_B|5.0', 'HIS_182_B|4.0', 'HIS_186_B|3.0', 'ASP_187_B|3.0', 'HIS_193_B|4.0', 'GLU_195_B|6.0', 'HIS_200_B|6.0', 'HIS_211_B|4.0', 'CYS_214_B|7.0', 'CYS_216_B|5.0', 'GLU_226_B|3.0', 'CYS_245_B|5.0', 'HIS_246_B|5.0', 'CYS_288_B|4.0']
+/////// 5dag.pdb ///////
+Target
+['CYS_25_A', 'CYS_28_A', 'CYS_42_A', 'CYS_47_A', 'HIS_52_A', 'CYS_55_A', 'CYS_68_A', 'CYS_71_A', 'CYS_82_A', 'HIS_102_A', 'CYS_105_A', 'CYS_137_A', 'CYS_140_A', 'CYS_157_A', 'CYS_162_A', 'HIS_167_A', 'CYS_170_A', 'CYS_194_A', 'HIS_197_A']
+Prediction
+['CYS_25_A|5.0', 'CYS_26_A|6.0', 'CYS_28_A|5.0', 'CYS_42_A|4.0', 'CYS_47_A|4.0', 'HIS_52_A|5.0', 'CYS_55_A|5.0', 'CYS_68_A|4.0', 'CYS_71_A|4.0', 'CYS_82_A|4.0', 'CYS_85_A|8.0', 'HIS_102_A|5.0', 'CYS_105_A|7.0', 'CYS_137_A|6.0', 'CYS_140_A|4.0', 'CYS_154_A|7.0', 'CYS_157_A|6.0', 'CYS_162_A|4.0', 'HIS_167_A|7.0', 'CYS_170_A|7.0', 'CYS_194_A|4.0', 'HIS_197_A|4.0']
+/////// 5din.pdb ///////
+Target
+['CYS_4_A', 'CYS_7_A', 'HIS_11_A', 'HIS_17_A', 'CYS_31_A', 'CYS_34_A', 'CYS_46_A', 'HIS_48_A', 'CYS_51_A', 'CYS_54_A', 'CYS_65_A', 'ASP_68_A', 'CYS_95_A', 'CYS_101_A', 'HIS_113_A', 'CYS_118_A']
+Prediction
+['CYS_4_A|4.0', 'CYS_7_A|7.0', 'HIS_11_A|4.0', 'HIS_17_A|4.0', 'CYS_31_A|6.0', 'HIS_32_A|6.0', 'CYS_34_A|5.0', 'CYS_46_A|4.0', 'HIS_48_A|6.0', 'CYS_51_A|5.0', 'CYS_54_A|5.0', 'CYS_65_A|4.0', 'HIS_73_A|3.0', 'CYS_77_A|4.0', 'CYS_95_A|5.0', 'CYS_101_A|3.0', 'CYS_108_A|3.0', 'HIS_113_A|5.0', 'CYS_118_A|4.0', 'CYS_4_B|4.0', 'CYS_7_B|7.0', 'HIS_11_B|4.0', 'HIS_17_B|4.0', 'CYS_31_B|6.0', 'HIS_32_B|6.0', 'CYS_34_B|5.0', 'CYS_46_B|4.0', 'HIS_48_B|6.0', 'CYS_51_B|5.0', 'CYS_54_B|5.0', 'CYS_65_B|4.0', 'HIS_73_B|3.0', 'CYS_77_B|4.0', 'CYS_95_B|5.0', 'CYS_101_B|3.0', 'CYS_108_B|3.0', 'HIS_113_B|5.0', 'CYS_118_B|4.0']
+/////// 5dka.pdb ///////
+Target
+['CYS_37_A', 'CYS_40_A', 'CYS_52_A', 'HIS_54_A', 'CYS_57_A', 'CYS_60_A', 'CYS_72_A', 'CYS_75_A', 'CYS_100_A', 'CYS_103_A', 'HIS_115_A', 'CYS_119_A']
+Prediction
+['CYS_37_A|6.0', 'CYS_40_A|4.0', 'HIS_45_A|4.0', 'CYS_52_A|4.0', 'HIS_54_A|5.0', 'CYS_57_A|5.0', 'CYS_60_A|5.0', 'CYS_72_A|4.0', 'CYS_75_A|4.0', 'CYS_100_A|5.0', 'CYS_103_A|3.0', 'CYS_108_A|3.0', 'HIS_115_A|4.0', 'CYS_119_A|4.0']
+/////// 5dzt.pdb ///////
+Target
+['CYS_875_A', 'CYS_911_A', 'HIS_912_A']
+Prediction
+['ASP_347_A|3.0', 'HIS_349_A|3.0', 'ASP_364_A|3.0', 'ASP_787_A|4.0', 'HIS_790_A|4.0', 'HIS_792_A|3.0', 'HIS_835_A|4.0', 'CYS_875_A|4.0', 'ASP_908_A|4.0', 'CYS_909_A|4.0', 'CYS_911_A|5.0', 'HIS_912_A|5.0']
+/////// 5e2j.pdb ///////
+Target
+['CYS_104_A', 'CYS_121_A', 'HIS_122_A', 'HIS_142_A']
+Prediction
+['CYS_104_A|5.0', 'HIS_118_A|3.0', 'CYS_121_A|4.0', 'HIS_122_A|3.0', 'GLU_418_A|3.0', 'HIS_424_A|3.0', 'HIS_428_A|3.0', 'HIS_461_A|6.0', 'HIS_462_A|4.0', 'ASP_506_A|5.0', 'HIS_507_A|5.0', 'ASP_509_A|6.0', 'GLU_515_A|6.0']
+/////// 5e68.pdb ///////
+Target
+['HIS_54_A', 'HIS_58_A', 'CYS_128_A']
+Prediction
+['HIS_54_A|3.0', 'HIS_58_A|3.0', 'CYS_128_A|3.0', 'HIS_54_B|3.0', 'HIS_58_B|3.0', 'CYS_128_B|3.0']
+/////// 5e9a.pdb ///////
+Target
+['CYS_122_A', 'CYS_162_A', 'CYS_164_A', 'CYS_167_A']
+Prediction
+['HIS_119_A|3.0', 'HIS_121_A|4.0', 'CYS_122_A|7.0', 'CYS_162_A|6.0', 'HIS_163_A|5.0', 'CYS_164_A|5.0', 'CYS_167_A|5.0', 'HIS_559_A|3.0']
+/////// 5edv.pdb ///////
+Target
+['CYS_699_A', 'CYS_702_A', 'CYS_717_A', 'CYS_719_A', 'CYS_722_A', 'CYS_725_A', 'CYS_744_A', 'CYS_747_A', 'CYS_799_A', 'CYS_802_A', 'CYS_817_A', 'CYS_820_A', 'CYS_825_A', 'CYS_828_A', 'HIS_836_A', 'CYS_841_A', 'CYS_871_A', 'CYS_874_A', 'CYS_890_A', 'CYS_893_A', 'CYS_898_A', 'CYS_901_A', 'CYS_911_A', 'CYS_916_A', 'HIS_923_A', 'HIS_926_A', 'CYS_930_A', 'CYS_969_A', 'CYS_986_A', 'CYS_998_A', 'HIS_1001_A']
+Prediction
+['CYS_699_A|5.0', 'CYS_702_A|4.0', 'CYS_717_A|4.0', 'CYS_719_A|5.0', 'CYS_722_A|4.0', 'CYS_725_A|5.0', 'HIS_729_A|3.0', 'CYS_744_A|5.0', 'CYS_747_A|4.0', 'CYS_799_A|4.0', 'CYS_802_A|4.0', 'CYS_817_A|4.0', 'CYS_820_A|4.0', 'CYS_825_A|4.0', 'CYS_828_A|3.0', 'HIS_836_A|3.0', 'CYS_841_A|4.0', 'CYS_871_A|6.0', 'CYS_874_A|4.0', 'CYS_885_A|3.0', 'HIS_887_A|5.0', 'HIS_889_A|6.0', 'CYS_890_A|5.0', 'CYS_893_A|5.0', 'CYS_898_A|9.0', 'CYS_901_A|5.0', 'CYS_911_A|4.0', 'CYS_916_A|3.0', 'HIS_923_A|5.0', 'HIS_925_A|7.0', 'HIS_926_A|6.0', 'CYS_930_A|4.0', 'CYS_969_A|4.0', 'CYS_986_A|4.0', 'CYS_998_A|4.0', 'HIS_1001_A|4.0']
+/////// 5ejk.pdb ///////
+Target
+['HIS_9_A', 'HIS_13_A', 'CYS_37_A', 'CYS_40_A']
+Prediction
+['HIS_9_A|4.0', 'HIS_13_A|5.0', 'CYS_37_A|5.0', 'HIS_39_A|4.0', 'CYS_40_A|5.0', 'HIS_93_A|3.0', 'HIS_103_A|3.0', 'HIS_104_A|3.0', 'HIS_9_E|4.0', 'HIS_13_E|5.0', 'CYS_37_E|5.0', 'HIS_39_E|4.0', 'CYS_40_E|5.0', 'HIS_93_E|3.0', 'HIS_103_E|3.0', 'HIS_104_E|3.0']
+/////// 5elh.pdb ///////
+Target
+['CYS_45_A', 'CYS_53_A', 'CYS_61_A', 'HIS_65_A', 'CYS_90_A', 'CYS_100_A', 'CYS_106_A', 'HIS_110_A', 'CYS_130_A', 'CYS_140_A', 'CYS_147_A', 'HIS_151_A']
+Prediction
+['CYS_45_A|5.0', 'CYS_53_A|5.0', 'HIS_56_A|4.0', 'CYS_61_A|7.0', 'HIS_63_A|4.0', 'HIS_65_A|6.0', 'CYS_90_A|4.0', 'CYS_100_A|4.0', 'CYS_106_A|4.0', 'HIS_110_A|4.0', 'CYS_130_A|5.0', 'HIS_132_A|5.0', 'CYS_140_A|6.0', 'HIS_146_A|4.0', 'CYS_147_A|6.0', 'HIS_151_A|6.0']
+/////// 5elk.pdb ///////
+Target
+['CYS_221_A', 'CYS_228_A', 'CYS_234_A', 'HIS_238_A', 'CYS_257_A', 'CYS_272_A', 'CYS_278_A', 'HIS_282_A', 'CYS_299_A', 'CYS_308_A', 'CYS_314_A', 'HIS_318_A']
+Prediction
+['CYS_221_A|4.0', 'CYS_228_A|4.0', 'CYS_234_A|4.0', 'HIS_238_A|4.0', 'CYS_257_A|6.0', 'CYS_272_A|4.0', 'CYS_278_A|6.0', 'CYS_281_A|4.0', 'HIS_282_A|5.0', 'CYS_299_A|4.0', 'CYS_308_A|4.0', 'CYS_314_A|4.0', 'HIS_318_A|4.0']
