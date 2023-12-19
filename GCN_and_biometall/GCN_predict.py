@@ -13,7 +13,9 @@ from base.PDB_MBS_preprocessing import get_dataset
 from base.input import get_random_train_test_proteins
 import warnings
 #import biometall
-from gnn_biometall_workflow import *
+from GCN_and_biometall.gnn_biometall_workflow import *
+
+
 
 warnings.filterwarnings('ignore')
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
