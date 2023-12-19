@@ -12,7 +12,7 @@ import pandas as pd
 from base.PDB_MBS_preprocessing import get_dataset
 from base.input import get_random_train_test_proteins
 import warnings
-import biometall
+from GCN_and_biometall import biometall
 
 def neural_net_predict(input_structure, model, threshold=0.7, hidden=False):
 
