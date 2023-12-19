@@ -34,8 +34,6 @@ net_CB.to(device)
 
 
 
-
-
 # -------- LOAD DATA ----------------
 # Load trainin data
 train_pdb, test_pdb, db_sites = get_random_train_test_proteins()
@@ -54,7 +52,7 @@ path_to_structures = config.PROTS_PATH
 path_to_sites = config.SITES_PATH
 
 # ----------------------------------
-path_to_structures = "path to alphafold structures"
+#path_to_structures = "path to alphafold structures"
 db_sites = []
 
 
@@ -86,7 +84,7 @@ for j, t_pdb in enumerate(input_structures):
     Tca = df_CA[df_CA['target'] == 2]['res_pos_chain'].tolist()
     Tca = {x: False for x in Tca}
 
-    pred = gnn_bmtl_predict(t_pdb, input_graph_CA, input_graph_CB, net_CA, net_CB)
+    pred = gnn_bmtl_predict(t_pdb, input_graph_CA, input_graph_CB, net_CA, net_CB, path_to_structures)
     if pred == None:
         continue
 

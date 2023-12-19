@@ -65,14 +65,15 @@ def load_trained_gnn(path):
     return model_instance
 
 
-def gnn_bmtl_predict(t_pdb, input_graph_CA, input_graph_CB, net_CA, net_CB):
+def gnn_bmtl_predict(t_pdb, input_graph_CA, input_graph_CB, net_CA, net_CB, path_to_structure):
     #input_graph_CA = get_dataset([t_pdb], atom=Atom.CA, sites=db_sites)  #
     #input_graph_CB = get_dataset([t_pdb], atom=Atom.CB, sites=db_sites)  # dddd
 
     if len(input_graph_CA) == 0 or len(input_graph_CB) == 0:
         return None
 
-    df_all = load_pdb(config.PROTS_PATH.joinpath(t_pdb))  ###
+    #df_all = load_pdb(config.PROTS_PATH.joinpath(t_pdb))  ###
+    df_all = load_pdb(path_to_structure.joinpath(t_pdb))
 
     #input_graph_CA = input_graph_CA[t_pdb]
     #input_graph_CB = input_graph_CB[t_pdb]
